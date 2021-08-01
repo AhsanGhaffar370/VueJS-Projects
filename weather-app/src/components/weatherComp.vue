@@ -28,7 +28,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'weatherComp',
   props: {
     msg: String,
     apiKey: String,

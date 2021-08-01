@@ -1,20 +1,15 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-  <HelloWorld :apiKey="api"/>
+  <HelloWorld/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import weatherComp from './components/weatherComp.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  },
-  data(){
-    return{
-      api: "1380719347e60d9475d99888fcab84d4",
-    }
+    weatherComp
   }
 }
 </script>
